@@ -28,17 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtVar1 = new System.Windows.Forms.TextBox();
-            this.txtVar2 = new System.Windows.Forms.TextBox();
-            this.txtRes1 = new System.Windows.Forms.TextBox();
-            this.txtVar3 = new System.Windows.Forms.TextBox();
-            this.txtVar4 = new System.Windows.Forms.TextBox();
-            this.txtRes2 = new System.Windows.Forms.TextBox();
-            this.txtVar5 = new System.Windows.Forms.TextBox();
-            this.txtVar6 = new System.Windows.Forms.TextBox();
-            this.txtVar7 = new System.Windows.Forms.TextBox();
-            this.txtVar8 = new System.Windows.Forms.TextBox();
-            this.txtFinalRes = new System.Windows.Forms.TextBox();
             this.bewijs = new System.Windows.Forms.Label();
             this.res = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -50,92 +39,18 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.lblEen = new System.Windows.Forms.Label();
+            this.lblTwee = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txtRes1 = new System.Windows.Forms.Label();
+            this.txtRes2 = new System.Windows.Forms.Label();
+            this.txtFinalRes = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // txtVar1
-            // 
-            this.txtVar1.Location = new System.Drawing.Point(48, 83);
-            this.txtVar1.Name = "txtVar1";
-            this.txtVar1.Size = new System.Drawing.Size(125, 27);
-            this.txtVar1.TabIndex = 0;
-            this.txtVar1.Text = "12345";
-            // 
-            // txtVar2
-            // 
-            this.txtVar2.Location = new System.Drawing.Point(250, 83);
-            this.txtVar2.Name = "txtVar2";
-            this.txtVar2.Size = new System.Drawing.Size(125, 27);
-            this.txtVar2.TabIndex = 1;
-            this.txtVar2.Text = "54321";
-            // 
-            // txtRes1
-            // 
-            this.txtRes1.Location = new System.Drawing.Point(521, 83);
-            this.txtRes1.Name = "txtRes1";
-            this.txtRes1.Size = new System.Drawing.Size(213, 27);
-            this.txtRes1.TabIndex = 2;
-            // 
-            // txtVar3
-            // 
-            this.txtVar3.Location = new System.Drawing.Point(48, 150);
-            this.txtVar3.Name = "txtVar3";
-            this.txtVar3.Size = new System.Drawing.Size(125, 27);
-            this.txtVar3.TabIndex = 3;
-            this.txtVar3.Text = "22222";
-            // 
-            // txtVar4
-            // 
-            this.txtVar4.Location = new System.Drawing.Point(250, 150);
-            this.txtVar4.Name = "txtVar4";
-            this.txtVar4.Size = new System.Drawing.Size(125, 27);
-            this.txtVar4.TabIndex = 4;
-            this.txtVar4.Text = "33333";
-            // 
-            // txtRes2
-            // 
-            this.txtRes2.Location = new System.Drawing.Point(521, 150);
-            this.txtRes2.Name = "txtRes2";
-            this.txtRes2.Size = new System.Drawing.Size(213, 27);
-            this.txtRes2.TabIndex = 5;
-            // 
-            // txtVar5
-            // 
-            this.txtVar5.Location = new System.Drawing.Point(48, 314);
-            this.txtVar5.Name = "txtVar5";
-            this.txtVar5.Size = new System.Drawing.Size(125, 27);
-            this.txtVar5.TabIndex = 6;
-            this.txtVar5.Text = "12345";
-            // 
-            // txtVar6
-            // 
-            this.txtVar6.Location = new System.Drawing.Point(232, 314);
-            this.txtVar6.Name = "txtVar6";
-            this.txtVar6.Size = new System.Drawing.Size(125, 27);
-            this.txtVar6.TabIndex = 7;
-            this.txtVar6.Text = "54321";
-            // 
-            // txtVar7
-            // 
-            this.txtVar7.Location = new System.Drawing.Point(454, 314);
-            this.txtVar7.Name = "txtVar7";
-            this.txtVar7.Size = new System.Drawing.Size(125, 27);
-            this.txtVar7.TabIndex = 8;
-            this.txtVar7.Text = "22222";
-            // 
-            // txtVar8
-            // 
-            this.txtVar8.Location = new System.Drawing.Point(645, 314);
-            this.txtVar8.Name = "txtVar8";
-            this.txtVar8.Size = new System.Drawing.Size(125, 27);
-            this.txtVar8.TabIndex = 9;
-            this.txtVar8.Text = "33333";
-            // 
-            // txtFinalRes
-            // 
-            this.txtFinalRes.Location = new System.Drawing.Point(112, 385);
-            this.txtFinalRes.Name = "txtFinalRes";
-            this.txtFinalRes.Size = new System.Drawing.Size(173, 27);
-            this.txtFinalRes.TabIndex = 10;
             // 
             // bewijs
             // 
@@ -236,11 +151,129 @@
             this.label9.TabIndex = 21;
             this.label9.Text = ">";
             // 
+            // lblEen
+            // 
+            this.lblEen.AutoSize = true;
+            this.lblEen.Location = new System.Drawing.Point(51, 90);
+            this.lblEen.MinimumSize = new System.Drawing.Size(150, 0);
+            this.lblEen.Name = "lblEen";
+            this.lblEen.Size = new System.Drawing.Size(150, 20);
+            this.lblEen.TabIndex = 22;
+            this.lblEen.Text = "12345";
+            // 
+            // lblTwee
+            // 
+            this.lblTwee.AutoSize = true;
+            this.lblTwee.Location = new System.Drawing.Point(250, 90);
+            this.lblTwee.MinimumSize = new System.Drawing.Size(150, 0);
+            this.lblTwee.Name = "lblTwee";
+            this.lblTwee.Size = new System.Drawing.Size(150, 20);
+            this.lblTwee.TabIndex = 23;
+            this.lblTwee.Text = "54321";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(48, 157);
+            this.label10.MinimumSize = new System.Drawing.Size(150, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(150, 20);
+            this.label10.TabIndex = 24;
+            this.label10.Text = "22222";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(250, 157);
+            this.label11.MinimumSize = new System.Drawing.Size(150, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(150, 20);
+            this.label11.TabIndex = 25;
+            this.label11.Text = "33333";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(40, 321);
+            this.label12.MinimumSize = new System.Drawing.Size(150, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(150, 20);
+            this.label12.TabIndex = 26;
+            this.label12.Text = "12345";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(240, 321);
+            this.label13.MinimumSize = new System.Drawing.Size(150, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(150, 20);
+            this.label13.TabIndex = 27;
+            this.label13.Text = "54321";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(638, 321);
+            this.label14.MinimumSize = new System.Drawing.Size(150, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(150, 20);
+            this.label14.TabIndex = 28;
+            this.label14.Text = "33333";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(430, 321);
+            this.label15.MinimumSize = new System.Drawing.Size(150, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(150, 20);
+            this.label15.TabIndex = 29;
+            this.label15.Text = "22222";
+            // 
+            // txtRes1
+            // 
+            this.txtRes1.AutoSize = true;
+            this.txtRes1.Location = new System.Drawing.Point(503, 90);
+            this.txtRes1.MinimumSize = new System.Drawing.Size(150, 0);
+            this.txtRes1.Name = "txtRes1";
+            this.txtRes1.Size = new System.Drawing.Size(150, 20);
+            this.txtRes1.TabIndex = 30;
+            // 
+            // txtRes2
+            // 
+            this.txtRes2.AutoSize = true;
+            this.txtRes2.Location = new System.Drawing.Point(503, 157);
+            this.txtRes2.MinimumSize = new System.Drawing.Size(150, 0);
+            this.txtRes2.Name = "txtRes2";
+            this.txtRes2.Size = new System.Drawing.Size(150, 20);
+            this.txtRes2.TabIndex = 31;
+            // 
+            // txtFinalRes
+            // 
+            this.txtFinalRes.AutoSize = true;
+            this.txtFinalRes.Location = new System.Drawing.Point(104, 388);
+            this.txtFinalRes.MinimumSize = new System.Drawing.Size(150, 0);
+            this.txtFinalRes.Name = "txtFinalRes";
+            this.txtFinalRes.Size = new System.Drawing.Size(150, 20);
+            this.txtFinalRes.TabIndex = 32;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtFinalRes);
+            this.Controls.Add(this.txtRes2);
+            this.Controls.Add(this.txtRes1);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.lblTwee);
+            this.Controls.Add(this.lblEen);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -252,17 +285,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.res);
             this.Controls.Add(this.bewijs);
-            this.Controls.Add(this.txtFinalRes);
-            this.Controls.Add(this.txtVar8);
-            this.Controls.Add(this.txtVar7);
-            this.Controls.Add(this.txtVar6);
-            this.Controls.Add(this.txtVar5);
-            this.Controls.Add(this.txtRes2);
-            this.Controls.Add(this.txtVar4);
-            this.Controls.Add(this.txtVar3);
-            this.Controls.Add(this.txtRes1);
-            this.Controls.Add(this.txtVar2);
-            this.Controls.Add(this.txtVar1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -272,18 +294,6 @@
         }
 
         #endregion
-
-        private TextBox txtVar1;
-        private TextBox txtVar2;
-        private TextBox txtRes1;
-        private TextBox txtVar3;
-        private TextBox txtVar4;
-        private TextBox txtRes2;
-        private TextBox txtVar5;
-        private TextBox txtVar6;
-        private TextBox txtVar7;
-        private TextBox txtVar8;
-        private TextBox txtFinalRes;
         private Label bewijs;
         private Label res;
         private Label label1;
@@ -295,5 +305,16 @@
         private Label label7;
         private Label label8;
         private Label label9;
+        private Label lblEen;
+        private Label lblTwee;
+        private Label label10;
+        private Label label11;
+        private Label label12;
+        private Label label13;
+        private Label label14;
+        private Label label15;
+        private Label txtRes1;
+        private Label txtRes2;
+        private Label txtFinalRes;
     }
 }

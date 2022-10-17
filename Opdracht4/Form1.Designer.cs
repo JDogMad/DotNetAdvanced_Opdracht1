@@ -167,6 +167,7 @@
             // 
             // txtRes1
             // 
+            this.txtRes1.Enabled = false;
             this.txtRes1.Location = new System.Drawing.Point(646, 110);
             this.txtRes1.Name = "txtRes1";
             this.txtRes1.Size = new System.Drawing.Size(125, 27);
@@ -175,6 +176,7 @@
             // 
             // txtRes2
             // 
+            this.txtRes2.Enabled = false;
             this.txtRes2.Location = new System.Drawing.Point(646, 178);
             this.txtRes2.Name = "txtRes2";
             this.txtRes2.Size = new System.Drawing.Size(125, 27);
@@ -182,6 +184,7 @@
             // 
             // txtRes3
             // 
+            this.txtRes3.Enabled = false;
             this.txtRes3.Location = new System.Drawing.Point(646, 242);
             this.txtRes3.Name = "txtRes3";
             this.txtRes3.Size = new System.Drawing.Size(125, 27);
@@ -189,6 +192,7 @@
             // 
             // txtRes4
             // 
+            this.txtRes4.Enabled = false;
             this.txtRes4.Location = new System.Drawing.Point(646, 307);
             this.txtRes4.Name = "txtRes4";
             this.txtRes4.Size = new System.Drawing.Size(125, 27);
@@ -279,6 +283,7 @@
             // 
             // txtSubTotaal
             // 
+            this.txtSubTotaal.Enabled = false;
             this.txtSubTotaal.Location = new System.Drawing.Point(646, 425);
             this.txtSubTotaal.Name = "txtSubTotaal";
             this.txtSubTotaal.Size = new System.Drawing.Size(125, 27);
@@ -293,6 +298,7 @@
             // 
             // txtSalesTax
             // 
+            this.txtSalesTax.Enabled = false;
             this.txtSalesTax.Location = new System.Drawing.Point(646, 509);
             this.txtSalesTax.Name = "txtSalesTax";
             this.txtSalesTax.Size = new System.Drawing.Size(125, 27);
@@ -308,6 +314,7 @@
             // 
             // txtGrandTotal
             // 
+            this.txtGrandTotal.Enabled = false;
             this.txtGrandTotal.Location = new System.Drawing.Point(646, 602);
             this.txtGrandTotal.Name = "txtGrandTotal";
             this.txtGrandTotal.Size = new System.Drawing.Size(125, 27);

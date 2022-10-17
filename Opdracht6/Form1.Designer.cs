@@ -265,7 +265,7 @@
             this.txtSalesTax.Name = "txtSalesTax";
             this.txtSalesTax.Size = new System.Drawing.Size(125, 27);
             this.txtSalesTax.TabIndex = 26;
-            this.txtSalesTax.Text = "7";
+            this.txtSalesTax.TextChanged += new System.EventHandler(this.txtSalesTax_TextChanged);
             // 
             // txtShipping
             // 

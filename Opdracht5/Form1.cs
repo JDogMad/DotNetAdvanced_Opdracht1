@@ -19,7 +19,7 @@ namespace Opdracht5 {
 
         private void btnConvertFC_Click(object sender, EventArgs e) {
             double celsius = double.Parse(txtFahrenheit.Text);
-            txtFahrenheit.Text = (celsius - 32 * 5 / 9).ToString();
+            txtCelsius.Text = ((celsius - 32 )* 5 / 9).ToString();
         }
     }
 }

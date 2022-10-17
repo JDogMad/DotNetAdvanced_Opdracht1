@@ -8,6 +8,9 @@ namespace Opdracht6{
         }
 
         private void btnCalculate_Click(object sender, EventArgs e) {
+            const double tax = 0.07;
+            txtSalesTax.Text = tax.ToString();
+
             txtSubTotal1.Text = (double.Parse(qty1.Text) * double.Parse(txtPrice1.Text)).ToString();
             txtSubTotal2.Text = (double.Parse(qty2.Text) * double.Parse(txtPrice2.Text)).ToString();
             txtSubTotal3.Text = (double.Parse(qty3.Text) * double.Parse(txtPrice3.Text)).ToString();
@@ -17,20 +20,32 @@ namespace Opdracht6{
 
             if (double.Parse(txtSubTotaal.Text) < 20)
             {
-                txtGrandTotal.Text = (double.Parse(txtSubTotaal.Text) + double.Parse(txtSalesTax.Text) + 5).ToString();
+                txtShipping.Text = "5";
+                txtGrandTotal.Text = (double.Parse(txtSubTotaal.Text) * double.Parse(txtSalesTax.Text) + 5).ToString();
             }
             else if (double.Parse(txtSubTotaal.Text) < 50)
             {
-                txtGrandTotal.Text = (double.Parse(txtSubTotaal.Text) + double.Parse(txtSalesTax.Text) + 7.5).ToString();
+                txtShipping.Text = "7.5";
+
+                txtGrandTotal.Text = (double.Parse(txtSubTotaal.Text) * double.Parse(txtSalesTax.Text) + 7.5).ToString();
             }
             else if (double.Parse(txtSubTotaal.Text) < 75)
             {
-                txtGrandTotal.Text = (double.Parse(txtSubTotaal.Text) + double.Parse(txtSalesTax.Text) + 10).ToString();
+                txtShipping.Text = "10";
+
+                txtGrandTotal.Text = (double.Parse(txtSubTotaal.Text) * double.Parse(txtSalesTax.Text) + 10).ToString();
             }
             else if (double.Parse(txtSubTotaal.Text) >= 75)
             {
-                txtGrandTotal.Text = (double.Parse(txtSubTotaal.Text) + double.Parse(txtSalesTax.Text)).ToString();
+                txtShipping.Text = "75";
+
+                txtGrandTotal.Text = (double.Parse(txtSubTotaal.Text) * double.Parse(txtSalesTax.Text)).ToString();
             }
+        }
+
+        private void txtSalesTax_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
